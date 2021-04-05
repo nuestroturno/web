@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+   background-color: #000000;	
+   min-height:100vh;
+}
+
+.flex-fill {
+   flex:1 1 auto;
+}
+
+.textoinicio{
+color: #FFFFFF;	
+}
+
+.mediacontact{
+display: inline-block;	
+background-color: #FFFFFF;	
+text-align: center;	
+margin: 15px;	
+}
