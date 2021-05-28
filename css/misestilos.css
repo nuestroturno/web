@@ -1,22 +1,144 @@
 @charset "UTF-8";
 /* CSS Document */
 
-body {
-   background-color: #000000;	
-   min-height:100vh;
+.html{
+overflow-x: hidden !important;	
 }
 
-.flex-fill {
-   flex:1 1 auto;
+.body{
+overflow-x: hidden !important;
 }
 
-.textoinicio{
-color: #FFFFFF;	
+.titular{
+font-family: soleil, sans-serif;
+font-weight: 700;
+font-style: normal;
 }
 
-.mediacontact{
-display: inline-block;	
-background-color: #FFFFFF;	
-text-align: center;	
-margin: 15px;	
+.itemmenu{
+
+font-family: soleil, sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+
+#mainNav.navbar{
+	/*background-color: #000000;
+	display: none;*/
+}
+
+
+ #mainNav.navbar-shrink {
+    background-color: #000000;
+	 color: #FFFFFF;
+	 display: flex;
+  }
+
+#mainNav.navbar-shrink .navbar-brand {
+    color: #FFFFFF;
+  }
+
+#mainNav.navbar-shrink .nav-link {
+    color: #FFFFFF;
+    padding: 1.5rem 1.5rem 1.25rem;
+    border-bottom: 0.25rem solid transparent;
+  }
+  #mainNav.navbar-shrink .nav-link:hover {
+    color: #64a19d;
+  }
+  #mainNav.navbar-shrink .nav-link:active {
+    color: #08e4c4;
+  }
+  #mainNav.navbar-shrink .nav-link.active {
+    color: #08e4c4;
+    outline: none;
+    border-bottom: 0.25rem solid #08e4c4;
+  }
+
+/*IMAGEN LANDING*/
+.masthead {
+  position: relative;
+  max-width: 100%;
+  max-height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  /*background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("assets/img/bg-masthead.jpg");*/
+  background: url("../imagenes/landing.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  height: 100vh;	
+}
+
+.card-wrapper {
+}
+
+.custom-circle-image {
+  width: 10vw; 
+  height: 10vw;
+}
+
+.custom-circle-image img {
+  object-fit: cover;
+}
+
+.card-title {
+  letter-spacing: 1.1px;
+   font-size: 15px;
+	 color: #1bd9bc;
+	
+font-family: soleil, sans-serif;
+font-weight: 600;
+font-style: normal;
+}
+
+.card-text {
+  font-size: 12px;
+  line-height: initial;
+	color: #FFFFFF;
+font-family: ff-zwo-web-pro, sans-serif; 
+font-weight: 100;
+font-style: normal;
+}
+
+.about-section{
+  background: url("../imagenes/fondo_offset.png");
+  max-width: 100%;
+  max-height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.parrafo{
+font-family: ff-zwo-web-pro, sans-serif; 
+font-weight: 100;
+font-style: normal; 
+color: white;
+}
+
+.titularblanco{
+font-family: soleil, sans-serif;
+font-weight: 700;
+font-style: normal;
+color: white;
+}
+
+.fondoverde{
+background-color: rgba(8,228,196,.80);
+}
+
+.titulargris{
+font-family: soleil, sans-serif;
+font-weight: 700;
+font-style: normal;
+color: #7D7D7D;
+}
+
+.participanteimg{
+height: 100%;
+width: 100%;
 }
