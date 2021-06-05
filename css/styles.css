@@ -4091,7 +4091,7 @@ input[type=button].btn-block {
   flex-basis: 100%;
   flex-grow: 1;
   align-items: center;
-  background-color: black;
+  /*background-color: black;*/	
 }
 
 .navbar-toggler {
