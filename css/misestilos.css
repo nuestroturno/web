@@ -128,6 +128,14 @@ font-style: normal;
 color: white;
 }
 
+.titularblancoii{
+font-family: soleil, sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 150%;
+color: white;
+}
+
 .fondoverde{
 background-color: rgba(8,228,196,.80);
 }
@@ -146,4 +154,11 @@ width: 100%;
 
 .fondoblanco{
 background-color: #FFFFFF;	
+}
+
+.undercover{
+font-family: ff-zwo-web-pro, sans-serif; 
+font-weight: 100;
+font-style: normal; 
+color: black;
 }
