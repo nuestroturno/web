@@ -41,7 +41,6 @@
                     <ul class="navbar-nav ml-auto ignorame">
                         <li class="nav-item itemmenu ignorame"><a class="nav-link js-scroll-trigger" href="#about">El proyecto</a></li>
                         <li class="nav-item itemmenu ignorame"><a class="nav-link js-scroll-trigger" href="#participantes">Participantes</a></li>
-						<!--<li class="nav-item itemmenu"><a class="nav-link js-scroll-trigger" href="#">Videos</a></li>-->
                         <li class="nav-item itemmenu ignorame"><a class="nav-link js-scroll-trigger" href="#equipo">Equipo</a></li>
                     </ul>
                 </div>
@@ -140,7 +139,8 @@
 		
 	<!-- Projects-->
     <section class="projects-section fondoblanco" id="participantes">
-		<h2 class="titularverdeii">Congresistas participantes</h2>
+		<h2 class="titularverdeii mb-2">Congresistas participantes</h2>
+		<h4 class="subsorttexto">Haz click en las fotos para ver el perfil y el video.</h4>
 		
     <div class="wraper">
       <div class="iso-nav">
@@ -159,43 +159,49 @@
                   <li class="" data-filter=".cr">Cambio Radical</li>
 				  <li class="" data-filter=".de">Decentes</li>	
                 </ul>
+			
+			    <li onClick="myFunction2()" class="dropbtnnn ">Por serie</li>
+                <ul id="myDropdown2" class="dropdown-content-2">
+                  <li class="" data-filter=".ser1">Serie 1</li>
+                  <li class="" data-filter=".ser2">Serie 2</li>	
+                </ul>
 				
         </ul>
         </div>
         <div class="main-iso" style="left: 35px;">
 			<!--TANDA 1-->
-            <div class="item rep pc">
+            <div class="item rep pc ser1">
                 <a href="bioadrianamatiz.html"><img src="imagenes/img-sort/sort_adriana.png" class="fotosort" alt="Adriana Matiz" data-bs-toggle="modal" data-bs-target="#exampleModal"></a>
             </div>
 			
-            <div class="item rep pu">
+            <div class="item rep pu ser1">
                 <a href="bioastridsanchez.html"><img src="imagenes/img-sort/sort_astrid.png" class="fotosort" alt="Astrid Sánchez"></a>
             </div>
-            <div class="item rep av">
+            <div class="item rep av ser1">
                 <a href="biocatalinaortiz.html"><img src="imagenes/img-sort/sort_catalina.png" class="fotosort" alt="Catalina Ortiz"></a>
             </div>
-            <div class="item sen cd">
+            <div class="item sen cd ser1">
                 <a href="biopalomavalencia.html"><img src="imagenes/img-sort/sort_paloma.png" class="fotosort" alt="Paloma Valencia"></a>
             </div>
-            <div class="item rep cd">
+            <div class="item rep cd ser1">
                 <a href="bioyenicaacosta.html"><img src="imagenes/img-sort/sort_yenica.png" class="fotosort" alt="Yenica Acosta"></a>
             </div>
 			
 			<!--TANDA 2-->
-			<div class="item rep pc">
+			<div class="item rep pc ser2">
                 <a href="bionidiaosorio.html"><img src="imagenes/img-sort/sort_nidia.png" class="fotosort" alt="Nidia Osorio"></a>
             </div>
-			<div class="item rep cd">
+			<div class="item rep cd ser2">
                 <a href="biomargaritarestrepo.html"><img src="imagenes/img-sort/sort_margarita.png" class="fotosort" alt="Margarita Restrepo"></a>
             </div>
-			<div class="item rep de">
+			<div class="item rep de ser2">
                 <a href="biomariajosepizarro.html"><img src="imagenes/img-sort/sort_maria_jose.png" class="fotosort" alt="María José Pizarro"></a>
             </div>
-			<div class="item sen pc">
+			<div class="item sen pc ser2">
                 <a href="bionadiablel.html"><img src="imagenes/img-sort/sort_nadia.png" class="fotosort" alt="Nadia Blel"></a>
             </div>
 			
-			<div class="item rep cr">
+			<div class="item rep cr ser2">
                 <a href="bioangelasanchez.html"><img src="imagenes/img-sort/sort_angela.png" class="fotosort" alt="Ángela Sánchez"></a>
             </div>
 			
@@ -356,6 +362,29 @@ window.onclick = function(event) {
   }
 }
 </script>	
+		
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction2() {
+  document.getElementById("myDropdown2").classList.toggle("showw");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtnnn')) {
+    var dropdownns = document.getElementsByClassName("dropdown-content-2");
+    var i;
+    for (i = 0; i < dropdownns.length; i++) {
+      var openDropdownn = dropdownns[i];
+      if (openDropdownn.classList.contains('showw')) {
+        openDropdownn.classList.remove('showw');
+      }
+    }
+  }
+}
+</script>		
+					
 		<!----*****************---->		
 
         <!-- Bootstrap core JS-->
